@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohasin's Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#about-me">About Me</a>
+            <a href="#qualifications">Qualifications</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#technologies">Technologies</a>
+            <a href="#contact-me">Contact</a>
+        </nav>
+    </header>
+    <main class="container">
+        <article class="intro">
+            <img id="profile-image"
+                src="https://avatars.githubusercontent.com/u/72180173?s=400&u=d6d016ee06611b6dc0ac666e353ce912732bf79e&v=4"
+                alt="Profile image - Mohasin" />
+            <h1>Hi, I'm Mohasin</h1>
+            <p>I am a <span id="dynamic-text" class="dynamic-text-color"></span></p>
+            <p class="social-links">
+                <a href="https://twitter.com/mohasin_haque" target="_blank">
+                    <img width="30" height="30" src="https://www.iconpacks.net/icons/1/free-icon-twitter-135.png"
+                        alt="twitter" />
+                </a>
+                <a href="https://www.linkedin.com/in/mohasin-haque" target="_blank">
+                    <img width="30" height="30" src="https://www.iconpacks.net/icons/1/free-icon-linkedin-130.png"
+                        alt="linkedin" />
+                </a>
+                <a href="https://www.instagram.com/its_mohasin_official/" target="_blank">
+                    <img width="30" height="30"
+                        src="https://www.iconpacks.net/icons/3/free-icon-instagram-logo-8869.png" alt="instagram" />
+                </a>
+            </p>
+        </article>
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>A Frontend Developer by profession with 1 years of industry experience.</p>
+            <p>In 2020 I started learning web development as a hobby.</p>
+
+            <p>
+                After falling in love with development, I took it up more actively. I actively build projects and teach and mentor to other folks also.
+            </p>
+
+            <p>
+                This website is an attempt to share my knowledge and experience. I'm willing to share my knowledge and
+                experience with you.
+            </p>
+        </section>
+
+        <section id="qualifications">
+            <h2>Qualifications</h2>
+            <ol>
+                <li>BCA</li>
+                <li>Frontend Development from Devsnest</li>
+            </ol>
+        </section>
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Coding</li>
+                <li>Reading books</li>
+                <li>Exploring technologies</li>
+            </ul>
+        </section>
+        <section id="technologies">
+            <h2>Technologies</h2>
+            <table>
+                <tr>
+                    <th>Frontend</th>
+                    <th>Backend</th>
+                    <th>Database</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>NodeJS</td>
+                    <td>MySQL</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Express</td>
+                    <td>Mongo DB</td>
+                </tr>
+                <tr>
+                    <td>JS</td>
+                    <td>Asp.NET</td>
+                    <td>Postgres</td>
+                </tr>
+            </table>
+        </section>
+        </section>
+        <section id="contact-me">
+            <form name="contact" id="contact" method="POST" data-netlify="true">
+                <h1>Contact Me</h1>
+                <section>
+                    <label for="firstName">First name</label>
+                    <input type="text" name="firstName" id="firstName" required />
+                </section>
+                <section>
+                    <label for="lastName">Last name</label>
+                    <input type="text" name="lastName" id="lastName" required />
+                </section>
+                <section>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"> </textarea>
+                </section>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        Made with ❤️ by Mohasin ©2022
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
